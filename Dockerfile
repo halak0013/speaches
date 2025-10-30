@@ -44,8 +44,6 @@ RUN mkdir -p $HOME/.cache/huggingface/hub
 ENV UVICORN_HOST=0.0.0.0
 ENV UVICORN_PORT=8005
 
-# API Key configuration
-ENV API_KEY=API_KEY
 
 # Close the UI
 ENV ENABLE_UI=false

@@ -1,5 +1,5 @@
 # docker-compose.yml
-version: "3.8"
+
 
 services:
   speaches:
@@ -14,8 +14,6 @@ services:
       # Port configuration
       - UVICORN_PORT=8005
 
-      # API Key
-      - API_KEY=API_KEY
 
       # Close the UI
       - ENABLE_UI=false
